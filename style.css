@@ -1,0 +1,52 @@
+.header_section {
+    text-align: center;
+}
+.header_section h2{
+    position: relative;
+
+}
+.header_section h2::before{
+    position: absolute;
+    content: "";
+    width: 62px;
+    height: 2px;
+    background: #f08d14;
+    left: 50%;
+    bottom: -22%;
+    transform: translate(-50%, 50%);
+}
+.header_section h2::after{
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 2px;
+    background: #2c2a27;
+    left: 50%;
+    bottom: -22%;
+    transform: translate(-50%, 50%);
+}
+.header_section p {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 22px;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+.content_section_style{
+    padding-bottom: 16px;
+}
+.content_section_style h2 {
+    margin-bottom: -7px;
+    margin-top: 25px;
+}
+.content_section_style p {
+    line-height: 28px;
+    padding: 32px;
+}
+.content_section_style h2 {
+    font-size: 20px;
+}
